@@ -1,3 +1,5 @@
+## Exercices:
+
 1. Allocate two pointers x and y. Allocating the pointers does not allocate any pointees.
 
 ```
@@ -36,3 +38,8 @@ y = x;
 // y = x gave us x's pointee -- sharing it
 *y = 13;
 ```
+
+
+
+
+Images & study questions at: http://cslibrary.stanford.edu/106/ 
