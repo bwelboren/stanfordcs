@@ -70,7 +70,7 @@ void H(){
   // Pointer to int
   int* a;
 
-  // Pointer needs a pointee or its a null ptr
+  // Pointer needs a pointee or its a null pointer dereference
   a = new int;
 
   *a = 50;
