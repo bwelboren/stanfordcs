@@ -50,7 +50,7 @@ void D(int* nummer){
 void F(){
   int nummer = 10;
   int* p_nummer = &nummer;
-  A(p_nummer);
+  D(p_nummer);
   std::cout << nummer << std::endl;
 }
 
