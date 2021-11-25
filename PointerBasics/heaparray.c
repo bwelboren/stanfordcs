@@ -2,7 +2,7 @@
    struct fraction* fracts;
 
    // allocate the array (pointee)
-   fracts = malloc(sizeof(struct fracts) * 100);
+   fracts = malloc(sizeof(struct fraction) * 100);
    
    int i;
 
